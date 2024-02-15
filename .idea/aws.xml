@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="accountSettings">
+    <option name="activeProfile" value="profile:KiranNamawar-409684282428-AdministratorAccess" />
+    <option name="activeRegion" value="ap-south-1" />
+    <option name="recentlyUsedProfiles">
+      <list>
+        <option value="profile:KiranNamawar-409684282428-AdministratorAccess" />
+      </list>
+    </option>
+    <option name="recentlyUsedRegions">
+      <list>
+        <option value="ap-south-1" />
+        <option value="us-east-1" />
+      </list>
+    </option>
+  </component>
+  <component name="connectionManager">
+    <option name="activeConnectionId" value="sso-session:KiranNamawar" />
+  </component>
+</project>
