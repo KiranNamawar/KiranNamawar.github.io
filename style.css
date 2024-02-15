@@ -9,7 +9,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     min-height: 10vh;
-    background-color: #f2f2f2;
+    background-color: lightblue;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -30,6 +30,26 @@ h3 {
     width: 100%;
 }
 
+main{
+    min-height: 90vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 3fr;
+    grid-template-areas: "about skills" "projects skills";
+}
+
+footer{
+    background-color: lightblue;
+    color: #333;
+    text-align: center;
+    width: 100%;
+}
+
+section {
+    padding: 1em;
+}
+
+
 .logo {
     color: #f1356d;
     text-transform: uppercase;
@@ -43,8 +63,6 @@ h3 {
     flex-wrap: wrap;
 }
 
-
-
 .menu a, .contact-links a{
     text-decoration: none;
     color: #333;
@@ -52,67 +70,39 @@ h3 {
     font-weight: bold;
 }
 
+
 .menu a:hover, .contact-links a:hover{
     color: #f1356d;
     transition: 0.5s;
     text-decoration: underline;
 }
 
-main{
-    min-height: 90vh;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 3fr;
-    grid-template-areas: "about skills" "projects skills";
-}
-
-section{
-    display: flex;
-    flex-direction: column;
-    /*align-items: center;*/
-    /*text-align: center;*/
-    /*flex-direction: column;*/
-    /*padding: 2em;*/
-}
-
-.about{
-    background-color: #f2f2f2;
+.about {
+    background-color: lightskyblue;
     color: #333;
     grid-area: about;
     text-align: start;
 }
 
+
 .skills{
     background-color: #333;
-    color: #f2f2f2;
+    color: coral;
     grid-area: skills;
-    padding: 0.2em;
     text-align: start;
-    width: 100%;
     justify-content: space-between;
 }
 
-.skill {
-    display: flex;
-    flex-direction: column;
-}
-.skill ul {
-    display: flex;
-}
-
 .projects{
-    background-color: #f2f2f2;
+    background-color: lightsalmon;
     color: #333;
     grid-area: projects;
 }
 
-footer{
-    background-color: #f2f2f2;
-    color: #333;
-    text-align: center;
-    width: 100%;
+.skill > ul {
+    display: flex;
+    flex-wrap: wrap;
 }
-
 
 @media (max-width: 768px) {
     nav {
